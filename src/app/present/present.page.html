@@ -1,0 +1,7 @@
+<ion-content>
+  <ion-slides [options]="slideOpts" center text-center>
+    <ion-slide *ngFor="let p of photos">
+      <ion-img [src]="p.path"></ion-img>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
